@@ -1,0 +1,14 @@
+{
+    "manifest_version": 1,
+    "name": "Ethereum Gas Fee Alert",
+    "version": "0.1",
+    "description": "Get notified when gas fees drop significantly.",
+    "permissions": ["storage", "notifications"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
